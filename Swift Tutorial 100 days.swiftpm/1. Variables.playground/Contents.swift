@@ -1,0 +1,40 @@
+import UIKit
+
+//var str = "Hello, playground"
+//str = "Goodbye"
+var age = 38
+var population = 8_000_000
+
+// multiple lines
+var str1 = """
+This goes
+over multiple
+lines
+"""
+
+// without multiple lines
+var str2 = """
+This goes \
+over multiple \
+lines
+"""
+
+// doubles and booleans
+var pi = 3.141
+var awesome = true
+
+// string interpolation
+var score = 85
+var strscore = "Your score was \(score)"
+var results = "The test results are here: \(strscore)"
+
+// constans
+let taylor = "swift"
+
+// type annotations
+let str = "Hello, playground"
+let album: String = "Reputation"
+let year: Int = 1989
+let height: Double = 1.78
+let taylorRocks: Bool = true
+
